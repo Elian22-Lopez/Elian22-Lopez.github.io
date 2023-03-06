@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    border: 3px solid #dfe166;
+    padding: 50px;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 3px solid #dfe166;
+    height: 638px;
+} 
+
+.main {
+    width: 75%;
+
+    float: left;
+    padding: 15px;
+    border: 3px solid #dfe166;
+    box-sizing: border-box;
+    height: 638px;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: url(fondo\ 3.jpg);
+}
+  
+
+.una{
+    width: 98%;
+    border: 2px solid #9a9eab;
+    background-color:  #ec96a4;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content:center;
+    align-items:left;
+
+}
+
+input[type="text"]{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+input[type="number"]{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}   
+input[type="date"]{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+input[type="email"]{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+textarea {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px; 
+}
+
+.datos{
+    margin-left: 80px;
+    align-items:right;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border-color: #dfe166;
+    background-color: #ec96a4;
+    text-align:left;
+    padding: 20px 25px ;
+    width: 100%;
+}
+
+form label{
+    margin-bottom: 7px;
+}
+ 
+form label .fa-sharp{
+    font-size: 20px;
+    color: #000;
+    margin-right: 10px;
+}
+
+form button {
+    margin-top: 15px;
+    color: rgb(12, 14, 15);
+    border: solid 1px #000;
+    background-color:aliceblue;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+img{
+    width: 300px;
+    height: 650px;
+    display: flex;
+    justify-content: left;
+}
+
+.segunda{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: left;
+    align-items:left;
+    text-align: left;
+}
+
+form button2 {
+    margin-top: 15px;
+    color: rgb(12, 14, 15);
+    border: solid 1px #000;
+    background-color:aliceblue;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tercera{
+    padding: 1.5px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: left;
+    align-items:left;
+    
+}
